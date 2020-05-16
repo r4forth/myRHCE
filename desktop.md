@@ -52,6 +52,7 @@ sudo qemu-img create -b server.qcow2 -f qcow2 servera.ovl
 sudo qemu-img create -b server.qcow2 -f qcow2 serverb.ovl
 sudo qemu-img create -b server.qcow2 -f qcow2 serverc.ovl
 sudo qemu-img create -b server.qcow2 -f qcow2 serverd.ovl
+sudo qemu-img create -b workstation.qcow2 -f qcow2 ws-1.ovl
 
 # NTFS Support
 sudo yum -y install epel-release ntfs-3g ntfsprogs
